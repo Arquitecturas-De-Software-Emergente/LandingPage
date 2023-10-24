@@ -1,0 +1,417 @@
+
+.navbar{
+    background-color: #02AA8B  !important;
+}
+
+.nav-item{
+    color: white !important;
+}
+
+@media (min-width: 769px) {
+    .navbar-nav {
+        margin-right: 300px !important;
+    }
+        
+}
+
+
+@media (max-width: 818px) {
+    .hide-on-small-screens {
+        display: none !important;
+    }
+}
+
+.nav-item.nav-link{
+    font-weight: 400 !important;
+}
+
+
+.nav-item.nav-link.active{
+    font-weight: bold !important;
+}
+
+.logo-pagina{
+    width: 200px;
+}
+
+@media (min-width: 1025px) {
+    .logo-pagina {
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logo-pagina {
+        width: 150px;
+    }
+}
+
+
+.btn.btn-primary{
+    padding: 5px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 4px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.card-verde{
+    background-color: #007A84;   
+}
+
+.text-white{
+    color: white !important;
+}
+
+.font-size-19{
+    font-size: 19px;
+}
+
+.text-black{
+    color: black !important;
+}
+
+.mt-10{
+    margin-top: 10px !important;
+}
+
+.p-40{
+    padding-bottom: 40px !important;
+    padding-top: 40px !important;
+}
+
+.font-size-get-started {
+    font-size: 100%;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    top: 2px;
+}
+
+.view-pc {
+    display: 'block';
+}
+
+.view-mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .view-pc {
+        display: none;
+    }
+    .view-mobile {
+        display: block;
+    }
+}
+
+.title-reputation{
+    font-size: 30px;
+}
+
+.card-reputation{
+    border: 3px solid rgba(128, 128, 128, 0.123);
+    border-radius: 5px;
+    padding: 20px !important;
+    min-height: 210px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media (max-width: 767px) {
+    .card-reputation{
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.s-reputation{
+    font-size: 18px !important;
+    color: black !important;
+}
+
+.p-reputation{
+    margin-top: 10px !important;
+    color: rgb(190, 190, 190) !important;
+}
+
+.img_reputation{
+    width: 30px;
+}
+
+.contenedor_get_started{
+    overflow: hidden;
+    position: relative;
+    
+}
+
+@media (min-width: 1025px) {
+    .contenedor_get_started {
+        margin-top: 100px;
+        margin-left: 120px;
+        top: -20px;
+    }
+}
+
+
+.hr-pagina{
+    width: 80%; margin: 0 auto;
+    border: 1px solid black !important;
+}
+
+.button-services{
+font-size: 40px;
+}
+
+.button-services.active{
+background-color: #007A84;
+}
+
+.button-services:hover{
+background-color: #007A84;
+}
+
+
+@media (max-width: 767px) {
+
+    .button-services{
+    font-size: 17px;
+    }
+
+}
+
+.p_description_buttons_grande{
+    font-size: 18px;
+}
+
+.contenedor_img_services{
+    position: relative;
+}
+
+.sub_img_services{
+    position: absolute;
+    right: 0px;
+    top: 80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    overflow: hidden;
+}
+
+.contenedor_img_services{
+    position: relative !important;
+    height: 500px;
+    overflow: hidden;
+}
+
+.sub_img_sercies{
+    position: absolute;
+    top: 110px;
+    right: 80px;
+}
+
+.btn-app{
+    position: relative;
+}
+
+.btn-apps-services{
+    position: absolute;
+    bottom: 120px;
+    left: 200px;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    .btn-apps-services{
+        bottom: 120px;
+        left: 0px;
+    }
+
+    
+    .sub_img_sercies{
+        top: 140px;
+        right: 0px;
+    }
+
+}
+
+.contenedor-testimonial{
+    background-image: url('../img/pagina/image7.png') !important; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 910px;
+    overflow: hidden !important;
+}
+
+.card-testimonial{
+    top: 100px;
+    background-color: white;
+    width: 500px;
+    overflow: hidden !important;
+    padding: 20px;
+
+}
+
+
+.img_estrellas{
+    position: relative; right: -60px;
+}
+
+
+.img_testimonial_perfil{
+    width: 64px;
+}
+
+.testimonio{
+    font-size: 25px;
+}
+
+.contenedor-testimonios{
+    position: relative;
+    width: 500px;
+}
+
+    
+.name_testimonio{
+ font-size: 30px;       
+}
+
+.container-margin-top{
+    margin-top: 200px;
+}
+
+@media (max-width: 767px) {
+
+    .contenedor-testimonial{
+        top: 0px !important;
+        height: 500px;
+    }
+
+    
+    .img_estrellas{
+        right: 0px;
+        width: 120px;
+    }
+
+    .img_testimonial_perfil{
+        width: 64px;
+    }
+
+    
+    .card-testimonial{
+        width: 300px;
+    }
+
+    .testimonio{
+        font-size: 14px;
+    }
+    
+    .name_testimonio{
+        font-size: 20px;
+    }
+
+    .container-margin-top{
+        margin-top: 0px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+
+}
+
+
+.puntos-testimonio {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    left: -40px;
+}
+
+.punto {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    background-color: transparent;
+    border: 2px solid #49dbb7; 
+    cursor: pointer;
+}
+
+.punto-activo {
+    background-color: #49dbb7; 
+    border-color: #49dbb7; 
+}
+
+
+
+@media (max-width: 767px) {
+
+    .puntos-testimonio {
+        left: -100px;
+    }
+
+}
+
+.color_redes{
+    background-color: #0c3a31 !important;
+    color: white;
+
+}
+
+.fa-phone {
+    transform: scaleX(-1);
+}
+
+
+.tr_get_started{
+    width: 40%;
+    overflow: hidden;
+}
+
+.tr_buttons{
+    width: 30%;
+}
+
+@media (max-width: 767px) {
+
+    .tr_get_started {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    *{
+       overflow-x: hidden;
+    }
+
+    img.mobile-background {
+        overflow: hidden;
+    }
+
+    @keyframes desplazamiento-izquierda {
+        0% {
+            transform: translateX(0); 
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    img.mobile-background {
+        animation: desplazamiento-izquierda 10s linear infinite;
+    }
+
+}
+
