@@ -279,8 +279,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 500px;
 }
-
-    
+   
 .name_testimonio{
  font-size: 30px;       
 }
@@ -295,7 +294,6 @@ h1, h2, h3, h4, h5, h6 {
         top: 0px !important;
         height: 500px;
     }
-
     
     .img_estrellas{
         right: 0px;
